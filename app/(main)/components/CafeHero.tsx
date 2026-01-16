@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function CafeHero() {
     return (
-      <main className="pt-34">
+      <main id="home" className="pt-34">
         <div className="max-w-[1440px] mx-auto px-4 md:px-12">
           <div className="flex flex-col md:flex-row gap-0 rounded-2xl overflow-hidden shadow-[0_10px_30px_-10px_rgba(22,85,39,0.1)] h-[calc(100vh-120px)]">
             {/* Left: Visual Impact */}

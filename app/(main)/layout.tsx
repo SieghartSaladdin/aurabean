@@ -1,5 +1,5 @@
-import { CafeNavbar } from "./components/cafe/CafeNavbar";
-import { CafeFooter } from "./components/cafe/CafeFooter";
+import { CafeNavbar } from "./components/MainNavbar";
+import { CafeFooter } from "./components/MainFooter";
 
 export default function MainLayout({
   children,
@@ -8,9 +8,9 @@ export default function MainLayout({
 }>) {
   return (
     <div>
-        <CafeNavbar />
-       {children}
-        <CafeFooter />
+      <CafeNavbar />
+      {children}
+      <CafeFooter />
     </div>
   );
 }

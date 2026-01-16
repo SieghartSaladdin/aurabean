@@ -1,7 +1,7 @@
 // Cafe Components - Collection Section
 export function CafeCollection() {
     return (
-      <section className="py-32 px-4 md:px-12 max-w-[1440px] mx-auto">
+      <section id="collection" className="py-32 px-4 md:px-12 max-w-[1440px] mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 px-4">
           <div className="space-y-4">
             <h2 className="text-4xl font-black tracking-tight uppercase tracking-[0.15em]">The Collection</h2>
