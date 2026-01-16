@@ -1,5 +1,6 @@
 import { CafeNavbar } from "./components/MainNavbar";
 import { CafeFooter } from "./components/MainFooter";
+import { ChatPanel } from "./components/ChatPanel";
 
 export default function MainLayout({
   children,
@@ -10,6 +11,7 @@ export default function MainLayout({
     <div>
       <CafeNavbar />
       {children}
+      <ChatPanel />
       <CafeFooter />
     </div>
   );
