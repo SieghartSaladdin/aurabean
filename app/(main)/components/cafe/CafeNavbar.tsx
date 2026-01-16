@@ -7,11 +7,11 @@ export function CafeNavbar() {
     <div className="fixed top-0 left-0 w-full z-50 px-4 md:px-12 py-6">
       <header className="flex items-center justify-between rounded-xl bg-[#f9f6f0]/80 dark:bg-[#2a2b2d]/80 backdrop-blur-md border border-[#165527]/5 px-8 py-4 shadow-[0_10px_30px_-10px_rgba(22,85,39,0.1)]">
         <div className="flex items-center gap-3">
-          <div className="size-6 text-[#165527] dark:text-[#C9A961]">
+          <div className="text-[#165527] dark:text-[#C9A961]">
              {/* Using Remix Icon as replacement for Material Symbol 'storm' */}
-            <i className="ri-flashlight-line text-3xl align-middle"></i>
+            <i className="ri-cup-line text-2xl align-middle"></i>
           </div>
-          <h2 className="text-xl font-bold tracking-tight uppercase tracking-[0.15em]">Boutique Cafe</h2>
+          <h2 className="text-xl font-bold tracking-tight uppercase tracking-[0.15em]">Aura Bean</h2>
         </div>
         <nav className="hidden md:flex items-center gap-12">
           {["Menu", "Locations", "Our Story", "Reservations"].map((item) => (
